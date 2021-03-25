@@ -7,7 +7,7 @@ metadata:
     argocd.argoproj.io/compare-options: IgnoreExtraneous
 spec:
   rules:
-  - host: https://c108-e.eu-gb.containers.cloud.ibm.com
+  - host: mycluster-lon02-b-446145-d02cf90349a0fe46c9804e3ab1fe2643-0000.eu-gb.containers.appdomain.cloud
     http:
       paths:
       - backend:
